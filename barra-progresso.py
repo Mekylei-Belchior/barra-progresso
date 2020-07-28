@@ -15,7 +15,7 @@ for i in range(REPETICAO):
 	    percent = (int(round(float(j)/FIM * 100)))
 	    
 	    if percent < 100:
-	    	# Imprime na tela o a barra de progresso
+	    	# Imprime na tela a barra de progresso
 	    	stdout.write('\r%s%s%s' % (
 	    		
 	    		f'[ {STATUS[0]:^13}',
